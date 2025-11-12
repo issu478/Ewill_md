@@ -21,14 +21,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *🧬 Version*: *1.0.0*
 ┃◈└───────────┈⊷-
 ╰──────────────┈⊷
-*EVILL 〽️D WhatsApp bot*
- *created by Sandes Isuranda 🤭*
+*EVILL 〽️D WhatsApp bot* 
  
 > © Powered by Sandes Isuranda `;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/kV09yDBR/5813.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/x2ovjd.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
