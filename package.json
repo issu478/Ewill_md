@@ -9,8 +9,7 @@
     "restart": "pm2 restart EVILL-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@otaxayun/baileys",
-    "jimp": "^1.6.0",
+    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -19,6 +18,7 @@
     "pino": "^7.0.5",
     "pm2": "^6.0.5",
     "util": "^0.12.4",
+    "jimp": "^1.6.0",
     "express": "latest",
     "axios": "^1.2.5",
     "crypto-digest-sync": "^1.0.0",
